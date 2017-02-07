@@ -1,0 +1,13 @@
+
+
+.row {
+	border: solid red 1px;
+}
+.navbar-brand {
+	font-size: 32px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+}
