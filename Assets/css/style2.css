@@ -1,13 +1,118 @@
 
 
-.row {
-	border: solid red 1px;
-}
-.navbar-brand {
-	font-size: 32px;
+
+/*GENERAL CSS*/
+
+body {
+		background-image: url(../images/new_year_background.png);
+		color:#777777;
+		font-family: 'Arial', 'Helvetica-Neue', 'Helvetica', sans-serif;
+		font-size: 16px;
 }
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
+.white {
+	background-color: white;
+}
+
+.blue {
+	background-color: #4aaaa5;
+}
+
+.nav {
+	color: #777777;
+}
+
+.borderBottom{
+	border-bottom: 3px solid #cccccc;
+}
+div.navbar-brand.blue {
+	color: #ffffff;
+}
+
+.navbar-brand:hover {
+    background-color: ;
+}
+
+.padding10 {
+	padding-top: 10px;
+}
+
+h1, h2, h3, h4 {
+		font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+		font-weight: bold;
+	}
+
+h1 {
+		font-size: 32px;
+	}
+
+h2 {
+		font-size: 24px;
+		color: #4aaaa5;
+	}
+
+h3 {
+		font-size: 18px;
+		color: #4aaaa5;
+	}
+
+h4 {
+		font-size: 18px;
+		font-weight: normal;
+		color: #ffffff;
+	}
+
+p {
+		line-height: 22px;
+		letter-spacing: 1px;
+	}
+
+
+
+
+
+/*BOOTSTRAP CLASS SPECIFIC STYLES*/
+/*.row {
+	border: solid red 1px;
+}
+*/
+.navbar-brand {
+	font-size: 32px;
+	color: #ffffff;
+}
+
+.container-fluid {
+	width: 100%;
+
+}
+
+.footer {
+/*	position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #777777;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.form-area
+{
+    background-color: #4aaaa5;
+	/*padding: 10px 40px 60px;*/
+	margin: 10px 0px 60px 0px;
+	}
+
+.caption {
+	position: absolute;
+	top:50px;
+	background-color: pink;
+	width: 290px;
+	margin-left: 5px;
+}
+
+.thumbnail {
+	border: none;
 }
